@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css advance flexbox </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .container{
+            width: 400px;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 50px;
+
+
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+
+            flex-wrap: wrap;
+
+
+        }
+
+        .box{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+
+            width: 200px;
+        }
+
+        #box1{
+            background-color: orangered;
+
+        }
+
+        #box2{
+            background-color: yellowgreen;
+        }
+        #box3{
+            background-color: mediumpurple;
+        }
+        #box4{
+            background-color: hotpink;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>css flexbox tutorial</h1>
+
+    <div class="container">
+        <div class="box" id="box1">One</div>
+        <div class="box" id="box2">Two</div>
+        <div class="box" id="box3">Three</div>
+        <div class="box" id="box4">Four</div>
+    </div>
+</body>
+
+</html>
