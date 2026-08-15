@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: palegreen;
+    height: 30px;
+}
+
+nav{
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+}
+
+#second{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.container{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    margin: 5px;
+    display: inline-block;
+    
+}
+
+#box2{
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+}
+
+#box4{
+    position: fixed;
+    right: 10px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: lightblue;
+}
