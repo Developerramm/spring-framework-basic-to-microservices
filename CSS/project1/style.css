@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.gallery_item{
+    border: 1px solid #ccc;
+    margin: 5px;
+    width: 180px;
+}
+
+.gallery_item:hover{
+    border: 1px solid #777;
+}
+
+.gallery_item img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 15px;
+}

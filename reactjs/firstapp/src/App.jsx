@@ -1,15 +1,12 @@
 import React from "react";
-import Hello from "./Hello";
+import Text from "./components/Text";
 
-import Bye from "./Bye";
 
 const App = () => {
   return (
     <div>
-      
-      <Hello />
-      
-      <Bye />
+      <Text />
+     
     </div>
   );
 };
