@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #A9A9A9;
+    height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.job_app_section{
+    width: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.job_app_section h1{
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: 1.2px;
+}
+
+span{
+    color: #1342EA;
+}
+
+
+.form_section{
+    margin-top: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.box input{
+    
+    padding: 5px;
+    border-radius: 5px;
+    width: 280px;
+    outline: none;
+
+    border: 1px solid #99c2ff;
+}
+
+.box input:focus{
+    border: 1px solid #4d94ff;
+}
