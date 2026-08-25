@@ -1,7 +1,6 @@
 import React from "react";
-import Text from "./components/Text";
+
 import Hello from "./components/Hello";
-import Bye from "./components/Bye";
 
 
 const App = () => {
@@ -9,7 +8,7 @@ const App = () => {
     <div>
       {/* <Text /> */}
       <Hello />
-      <Bye />
+     
      
     </div>
   );
