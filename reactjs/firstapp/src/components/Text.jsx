@@ -1,41 +1,53 @@
-import React from "react";
+import React from 'react'
 
 const Text = () => {
-  function getName(name) {
+
+
+  function getName(name){
     return name;
   }
 
-  const handleClick = () => {
-    console.log("button is cliked");
-    alert("button is clicked");
-  };
 
-  const handleInput = (e) => {
+  const handleClick = ()=>{
+    alert("button was click ")
+  }
+
+
+  const handleInput = (event) =>{
     console.clear()
-    console.log("your are typing ");
-    console.log(e.target.value);
-  };
+    console.log(event.target.value);
+  }
+
+  const handleMouseOver = ()=>{
+    console.log("mouse is over the text")
+  }
+
+  const handleDubleClick = ()=>{
+    console.log("text double click")
+  }
 
   return (
     <div>
-      <h3>This is text component </h3>
-      <h4>Your name is {getName("Ram kumar")} </h4>
 
-      <h3> {getName("Mohit kumar")} </h3>
+      <h4>your name is {getName("Ram kumar")} </h4>
+      <h4>your name is {getName("Mohit kumar")} </h4>
 
-      <button onClick={handleClick}>click me </button>
 
-      <button onClick={() => alert("hello ram")}>say hello </button>
+      <button onClick={handleClick}>Click me</button>
+      <br /> <br />
 
-      <br />
-      <br />
-      <br />
-      <input type="text" onChange={handleInput} placeholder="type something" />
+      <button onClick={()=>alert("Hellow from inline function")}>Say Hello </button>
 
-      <br /><br /><br />
-      <p >Lorem ipsum dolor sit amet.</p>
+      <br /><br />
+      
+      <input type="text" onChange={handleInput} placeholder="type something " />
+
+
+      <p onMouseOver={handleMouseOver} onDoubleClick={handleDubleClick}>Lorem ipsum dolor sit amet.</p>
+
+      
     </div>
-  );
-};
+  )
+}
 
-export default Text;
+export default Text
