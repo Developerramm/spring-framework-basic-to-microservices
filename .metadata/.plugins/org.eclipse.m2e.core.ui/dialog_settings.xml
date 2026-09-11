@@ -25,13 +25,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.app.ramm"/>
 		</list>
 		<list key="groupId">
-			<item value="com.app"/>
 		</list>
 		<list key="artifactId">
-			<item value="ramm"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
