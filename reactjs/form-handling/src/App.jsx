@@ -1,5 +1,6 @@
 import MultiInputForm from "./MultiInputForm";
 import SimpleForm from "./SimpleForm";
+import AdvancedForm from './AdvancedForm';
 
 const App = () => {
   return (
@@ -8,7 +9,9 @@ const App = () => {
 
         {/* <SimpleForm /> */}
 
-        <MultiInputForm />
+        {/* <MultiInputForm /> */}
+
+        <AdvancedForm />
     
       </div>
     </div>
