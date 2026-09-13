@@ -9,13 +9,13 @@ const App = () => {
     <div className="container">
       <div className="row">
 
-        {/* <SimpleForm /> */}
+        <SimpleForm />
 
-        {/* <MultiInputForm /> */}
+        <MultiInputForm />
 
-        {/* <AdvancedForm /> */}
+        <AdvancedForm />
 
-        {/* <UncontrolledForm /> */}
+        <UncontrolledForm />
 
         <BasicValidationForm />
     
