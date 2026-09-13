@@ -1,3 +1,4 @@
+import MultiInputForm from "./MultiInputForm";
 import SimpleForm from "./SimpleForm";
 
 const App = () => {
@@ -5,7 +6,9 @@ const App = () => {
     <div className="container">
       <div className="row">
 
-        <SimpleForm />
+        {/* <SimpleForm /> */}
+
+        <MultiInputForm />
     
       </div>
     </div>
