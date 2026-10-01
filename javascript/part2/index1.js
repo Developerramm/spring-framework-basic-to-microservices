@@ -5,3 +5,5 @@ console.log(typeof Object)
 console.log(4/5)
 console.log(typeof 3)
 
+console.log(19===19)
+
